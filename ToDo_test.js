@@ -1,6 +1,6 @@
 Feature('ToDo');
 
-/*Scenario('Вход на сайт в городе Екатеринбург',  ({ I , mainPage}) => {
+Scenario('Вход на сайт в городе Екатеринбург',  ({ I , mainPage}) => {
 
 
     mainPage.visit();
@@ -26,16 +26,16 @@ Scenario('Поиск категории',  ({ I , mainPage}) => {
 
 
 });
-Scenario(' пустой корзины', async ({ I , mainPage}) => {
+Scenario('Пустая корзина ', async ({ I , mainPage}) => {
 
 
     mainPage.visit();
     mainPage.clickBasket();
     I.see("Ваша корзина ещё пуста");
 
-});*/
+});
 
-Scenario('В корзине 1 товар', async ({ I , mainPage}) => {
+Scenario('Переход в раздел о нас ', async ({ I , mainPage}) => {
 
 
     mainPage.visit();
